@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project data (large / regenerated)
+data/train/*
+data/val/*
+data/sample/*
+!data/train/.gitkeep
+!data/val/.gitkeep
+!data/sample/.gitkeep
+
+# Trained weights
+checkpoints/*.pth
+
+# Generated results
+results/*
+!results/.gitkeep
+
+# Logs
+*.log

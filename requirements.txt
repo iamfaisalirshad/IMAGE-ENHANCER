@@ -1,0 +1,17 @@
+# Core deep learning
+torch
+torchvision
+
+# Image / array handling
+numpy
+opencv-python
+Pillow
+
+# Metrics
+scikit-image
+
+# Visualization
+matplotlib
+
+# Progress bars
+tqdm
